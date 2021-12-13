@@ -1,0 +1,16 @@
+{
+  "name": "floating-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon imgs/icon.icns --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.1"
+  }
+}
